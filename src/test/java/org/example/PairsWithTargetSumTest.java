@@ -59,12 +59,5 @@ public class PairsWithTargetSumTest {
         PairsWithTargetSum.pairs_value(array, targetSum);
     }
 
-    @Test
-    public void testConsecutiveNumbers2() {
-        // Test case: Array with consecutive numbers that sum to the target
-        int[] array = {1, 2, 3, 4, 5, 6};
-        int targetSum = 7;
-        PairsWithTargetSum.pairs_value(array, targetSum);
-    }
 }
 
